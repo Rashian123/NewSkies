@@ -1,0 +1,926 @@
+{
+  "mod_elements": [
+    {
+      "name": "NewSkies",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_skies",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SkyDirt",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/sky_dirt.json",
+          "src/main/resources/assets/new_skies/models/block/sky_dirt.json",
+          "src/main/java/net/mcreator/newskies/block/SkyDirtBlock.java",
+          "src/main/resources/assets/new_skies/models/item/sky_dirt.json",
+          "src/main/resources/assets/new_skies/blockstates/sky_dirt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SkyGrass",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/blockstates/sky_grass.json",
+          "src/main/resources/assets/new_skies/models/item/sky_grass.json",
+          "src/main/resources/assets/new_skies/models/block/sky_grass.json",
+          "src/main/java/net/mcreator/newskies/block/SkyGrassBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GrassBlockLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_block_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/sky_grass.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyWood",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_wood.json",
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyWoodBlock.java",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_wood.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_wood.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/blue_sky_log.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_log.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_log.json",
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyLogBlock.java",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyPlanks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyPlanksBlock.java",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_planks.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_planks.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_planks.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyLeaves",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyLeavesBlock.java",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_leaves.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_leaves.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_leaves.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyStairs",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/block/blue_sky_stairs_inner.json",
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyStairsBlock.java",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_stairs.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_stairs.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_stairs.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_stairs.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkySlab",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/Blue_SkySlabBlock.java",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_slab.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_slab.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_slab.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_slab_top.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_slab.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyFence",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyFenceBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_fence.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_post.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_inventory.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_fence.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_fence.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyFenceGate",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/blue_sky_fence_gate.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_fence_gate.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_gate_wall.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_gate_open.json",
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyFenceGateBlock.java",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_gate_wall_open.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_fence_gate.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyPressurePlate",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyPressurePlateBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_pressure_plate.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_pressure_plate.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_pressure_plate.json",
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_pressure_plate.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyButton",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/blockstates/blue_sky_button.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_button.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_button_pressed.json",
+          "src/main/resources/assets/new_skies/models/block/blue_sky_button_inventory.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/blue_sky_button.json",
+          "src/main/resources/assets/new_skies/models/item/blue_sky_button.json",
+          "src/main/java/net/mcreator/newskies/block/Blue_SkyButtonBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Blue_SkyWoodRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyPlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyPlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyStairsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkySlabRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyFenceRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyButtonRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Blue_SkyStickRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_sky_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/blue_sky_stick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteWood",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_wood.json",
+          "src/main/resources/assets/new_skies/models/block/white_wood.json",
+          "src/main/resources/assets/new_skies/blockstates/white_wood.json",
+          "src/main/resources/assets/new_skies/models/item/white_wood.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteWoodBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteLog",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/block/white_log.json",
+          "src/main/resources/assets/new_skies/models/item/white_log.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteLogBlock.java",
+          "src/main/resources/assets/new_skies/blockstates/white_log.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhitePlanks",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/block/white_planks.json",
+          "src/main/resources/assets/new_skies/blockstates/white_planks.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_planks.json",
+          "src/main/resources/assets/new_skies/models/item/white_planks.json",
+          "src/main/java/net/mcreator/newskies/block/WhitePlanksBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteLeaves",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/white_leaves.json",
+          "src/main/resources/assets/new_skies/blockstates/white_leaves.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteLeavesBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_leaves.json",
+          "src/main/resources/assets/new_skies/models/block/white_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteStairs",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/block/white_stairs_inner.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_stairs.json",
+          "src/main/resources/assets/new_skies/models/block/white_stairs_outer.json",
+          "src/main/resources/assets/new_skies/models/item/white_stairs.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteStairsBlock.java",
+          "src/main/resources/assets/new_skies/blockstates/white_stairs.json",
+          "src/main/resources/assets/new_skies/models/block/white_stairs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteSlab",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/newskies/block/WhiteSlabBlock.java",
+          "src/main/resources/assets/new_skies/models/item/white_slab.json",
+          "src/main/resources/assets/new_skies/blockstates/white_slab.json",
+          "src/main/resources/assets/new_skies/models/block/white_slab_top.json",
+          "src/main/resources/assets/new_skies/models/block/white_slab.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_slab.json",
+          "src/main/resources/assets/new_skies/models/block/white_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteFence",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_fence.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteFenceBlock.java",
+          "src/main/resources/assets/new_skies/models/item/white_fence.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence_post.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence_inventory.json",
+          "src/main/resources/assets/new_skies/blockstates/white_fence.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteFenceGate",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_fence_gate.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence_gate_wall_open.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence_gate.json",
+          "src/main/resources/assets/new_skies/models/block/white_fence_gate_open.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteFenceGateBlock.java",
+          "src/main/resources/assets/new_skies/models/block/white_fence_gate_wall.json",
+          "src/main/resources/assets/new_skies/models/item/white_fence_gate.json",
+          "src/main/resources/assets/new_skies/blockstates/white_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhitePressurePlate",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/white_pressure_plate.json",
+          "src/main/resources/assets/new_skies/models/block/white_pressure_plate_down.json",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_pressure_plate.json",
+          "src/main/resources/assets/new_skies/blockstates/white_pressure_plate.json",
+          "src/main/java/net/mcreator/newskies/block/WhitePressurePlateBlock.java",
+          "src/main/resources/assets/new_skies/models/block/white_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteButton",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/blockstates/white_button.json",
+          "src/main/resources/assets/new_skies/models/block/white_button.json",
+          "src/main/resources/assets/new_skies/models/block/white_button_inventory.json",
+          "src/main/java/net/mcreator/newskies/block/WhiteButtonBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/white_button.json",
+          "src/main/resources/assets/new_skies/models/block/white_button_pressed.json",
+          "src/main/resources/assets/new_skies/models/item/white_button.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "WhiteWoodRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhitePlanksLogRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhitePlanksWoodRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteStairsRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteSlabRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteFenceRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhitePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteButtonRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_button_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "WhiteStickRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/new_skies/recipes/white_stick_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Greenstone",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greenstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/greenstone.json",
+          "src/main/resources/assets/new_skies/blockstates/greenstone.json",
+          "src/main/java/net/mcreator/newskies/block/GreenstoneBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/greenstone.json",
+          "src/main/resources/assets/new_skies/models/block/greenstone.json"
+        ]
+      }
+    },
+    {
+      "name": "Vault",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vault",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/block/vault.json",
+          "src/main/java/net/mcreator/newskies/block/VaultBlock.java",
+          "src/main/resources/data/new_skies/loot_tables/blocks/vault.json",
+          "src/main/resources/assets/new_skies/models/item/vault.json",
+          "src/main/resources/assets/new_skies/blockstates/vault.json"
+        ]
+      }
+    },
+    {
+      "name": "Banker",
+      "type": "villagerprofession",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/textures/entity/villager/profession/banker.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/new_skies/models/item/coin.json",
+          "src/main/java/net/mcreator/newskies/item/CoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BankerVillagerTrades",
+      "type": "villagertrade",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banker_villager_trades",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:WhiteLeaves",
+      "~CUSTOM:Blue_SkyLeaves"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:SkyDirt",
+      "CUSTOM:SkyGrass"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:WhitePlanks",
+      "~CUSTOM:WhiteLog",
+      "~CUSTOM:WhiteWood",
+      "~CUSTOM:Blue_SkyPlanks",
+      "~CUSTOM:Blue_SkyLog",
+      "~CUSTOM:Blue_SkyWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:WhiteSlab",
+      "~CUSTOM:Blue_SkySlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:WhiteFence",
+      "~CUSTOM:Blue_SkyFence"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SkyGrass",
+      "~CUSTOM:SkyDirt"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:WhiteStairs",
+      "~CUSTOM:Blue_SkyStairs"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.new_skies.white_slab": "White Slab",
+      "block.new_skies.white_button": "White Button",
+      "block.new_skies.blue_sky_pressure_plate": "Blue_Sky Pressure Plate",
+      "block.new_skies.white_planks": "White Planks",
+      "item_group.new_skies.new_skies": "New Skies",
+      "block.new_skies.sky_grass": "Sky Grass",
+      "block.new_skies.blue_sky_leaves": "Blue_Sky Leaves",
+      "block.new_skies.blue_sky_planks": "Blue_Sky Planks",
+      "block.new_skies.sky_dirt": "Sky Dirt",
+      "block.new_skies.blue_sky_log": "Blue_Sky Log",
+      "block.new_skies.white_log": "White Log",
+      "block.new_skies.white_fence": "White Fence",
+      "block.new_skies.white_fence_gate": "White Fence Gate",
+      "block.new_skies.blue_sky_stairs": "Blue_Sky Stairs",
+      "block.new_skies.blue_sky_fence": "Blue_Sky Fence",
+      "block.new_skies.blue_sky_button": "Blue_Sky Button",
+      "block.new_skies.vault": "Vault",
+      "block.new_skies.white_pressure_plate": "White Pressure Plate",
+      "item.new_skies.coin": "Coin",
+      "block.new_skies.white_stairs": "White Stairs",
+      "block.new_skies.white_wood": "White Wood",
+      "block.new_skies.blue_sky_slab": "Blue_Sky Slab",
+      "block.new_skies.greenstone": "Greenstone",
+      "block.new_skies.blue_sky_wood": "Blue_Sky Wood",
+      "block.new_skies.blue_sky_fence_gate": "Blue_Sky Fence Gate",
+      "block.new_skies.white_leaves": "White Leaves",
+      "entity.minecraft.villager.new_skies.banker": "Banker"
+    },
+    "pt_br": {
+      "block.new_skies.white_slab": "White Slab",
+      "block.new_skies.white_button": "White Button",
+      "block.new_skies.blue_sky_pressure_plate": "Blue_Sky Pressure Plate",
+      "block.new_skies.white_planks": "White Planks",
+      "item_group.new_skies.new_skies": "New Skies",
+      "block.new_skies.sky_grass": "Grama dos céus",
+      "block.new_skies.blue_sky_leaves": "Blue_Sky Leaves",
+      "block.new_skies.blue_sky_planks": "Blue_Sky Planks",
+      "block.new_skies.sky_dirt": "Terra dos céus",
+      "block.new_skies.blue_sky_log": "Blue_Sky Log",
+      "block.new_skies.white_log": "White Log",
+      "block.new_skies.white_fence": "White Fence",
+      "block.new_skies.white_fence_gate": "White Fence Gate",
+      "block.new_skies.blue_sky_stairs": "Blue_Sky Stairs",
+      "block.new_skies.blue_sky_fence": "Blue_Sky Fence",
+      "block.new_skies.blue_sky_button": "Blue_Sky Button",
+      "block.new_skies.vault": "Vault",
+      "block.new_skies.white_pressure_plate": "White Pressure Plate",
+      "item.new_skies.coin": "Coin",
+      "block.new_skies.white_stairs": "White Stairs",
+      "block.new_skies.white_wood": "White Wood",
+      "block.new_skies.blue_sky_slab": "Blue_Sky Slab",
+      "block.new_skies.greenstone": "Greenstone",
+      "block.new_skies.blue_sky_wood": "Blue_Sky Wood",
+      "block.new_skies.blue_sky_fence_gate": "Blue_Sky Fence Gate",
+      "block.new_skies.white_leaves": "White Leaves",
+      "entity.minecraft.villager.new_skies.banker": "Banker"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "new_skies",
+    "modName": "New Skies",
+    "version": "1.0.0",
+    "author": "Russian, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.newskies"
+  },
+  "mcreatorVersion": 202400118518
+}

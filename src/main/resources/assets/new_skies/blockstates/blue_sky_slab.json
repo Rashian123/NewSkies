@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "new_skies:block/blue_sky_slab"
+    },
+    "type=top": {
+      "model": "new_skies:block/blue_sky_slab_top"
+    },
+    "type=double": {
+      "model": "new_skies:block/blue_sky_slab_full"
+    }
+  }
+}

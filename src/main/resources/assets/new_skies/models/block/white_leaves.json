@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "new_skies:block/white_leaves",
+    "particle": "new_skies:block/white_leaves"
+  }
+}

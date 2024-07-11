@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "new_skies:block/blue_sky_planks",
+    "particle": "new_skies:block/blue_sky_planks"
+  },
+  "render_type": "solid"
+}

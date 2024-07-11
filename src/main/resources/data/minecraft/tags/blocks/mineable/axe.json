@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "new_skies:white_planks",
+    "new_skies:white_log",
+    "new_skies:white_wood",
+    "new_skies:blue_sky_planks",
+    "new_skies:blue_sky_log",
+    "new_skies:blue_sky_wood"
+  ]
+}

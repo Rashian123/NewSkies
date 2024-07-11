@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_skies:block/vault_side",
+    "up": "new_skies:block/vault_side",
+    "north": "new_skies:block/vault",
+    "east": "new_skies:block/vault_side",
+    "south": "new_skies:block/vault_side",
+    "west": "new_skies:block/vault_side",
+    "particle": "new_skies:block/vault_side"
+  },
+  "render_type": "solid"
+}

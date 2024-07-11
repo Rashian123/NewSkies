@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Banker",
+    "pointOfInterest": {
+      "value": "CUSTOM:Vault"
+    },
+    "actionSound": {
+      "value": "entity.experience_orb.pickup"
+    },
+    "hat": "Full",
+    "professionTextureFile": "bankervillager.png",
+    "zombifiedProfessionTextureFile": "bankervillager.png"
+  }
+}

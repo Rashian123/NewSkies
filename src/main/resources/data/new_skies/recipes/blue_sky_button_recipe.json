@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "new_skies:blue_sky_planks"
+    }
+  ],
+  "result": {
+    "item": "new_skies:blue_sky_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "new_skies:block/dirt",
+    "up": "new_skies:block/top",
+    "north": "new_skies:block/grass_block_side",
+    "east": "new_skies:block/grass_block_side",
+    "south": "new_skies:block/grass_block_side",
+    "west": "new_skies:block/grass_block_side",
+    "particle": "new_skies:block/dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "new_skies:block/blue_sky_planks"
+  },
+  "render_type": "solid"
+}

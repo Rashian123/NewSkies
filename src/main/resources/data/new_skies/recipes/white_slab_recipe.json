@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "new_skies:white_planks"
+    }
+  },
+  "result": {
+    "item": "new_skies:white_slab",
+    "count": 6
+  }
+}
