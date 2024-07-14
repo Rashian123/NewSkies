@@ -9,12 +9,13 @@
   "block.new_skies.blue_sky_planks": "Blue_Sky Planks",
   "block.new_skies.sky_dirt": "Sky Dirt",
   "block.new_skies.blue_sky_log": "Blue_Sky Log",
-  "block.new_skies.white_log": "White Log",
   "block.new_skies.white_fence": "White Fence",
+  "block.new_skies.white_log": "White Log",
   "block.new_skies.white_fence_gate": "White Fence Gate",
   "block.new_skies.blue_sky_stairs": "Blue_Sky Stairs",
   "block.new_skies.blue_sky_fence": "Blue_Sky Fence",
   "block.new_skies.blue_sky_button": "Blue_Sky Button",
+  "entity.new_skies.sky_villager": "Sky Villager",
   "block.new_skies.vault": "Vault",
   "block.new_skies.white_pressure_plate": "White Pressure Plate",
   "item.new_skies.coin": "Coin",
@@ -24,6 +25,7 @@
   "block.new_skies.greenstone": "Greenstone",
   "block.new_skies.blue_sky_wood": "Blue_Sky Wood",
   "block.new_skies.blue_sky_fence_gate": "Blue_Sky Fence Gate",
+  "item.new_skies.sky_villager_spawn_egg": "Sky Villager Spawn Egg",
   "block.new_skies.white_leaves": "White Leaves",
   "entity.minecraft.villager.new_skies.banker": "Banker"
 }

@@ -6,6 +6,7 @@ package net.mcreator.newskies.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 import net.neoforged.bus.api.IEventBus;
 
 import net.minecraft.world.level.block.Block;
@@ -43,6 +44,7 @@ public class NewSkiesModItems {
 	public static final DeferredHolder<Item, Item> GREENSTONE = block(NewSkiesModBlocks.GREENSTONE);
 	public static final DeferredHolder<Item, Item> VAULT = block(NewSkiesModBlocks.VAULT);
 	public static final DeferredHolder<Item, Item> COIN = REGISTRY.register("coin", () -> new CoinItem());
+	public static final DeferredHolder<Item, Item> SKY_VILLAGER_SPAWN_EGG = REGISTRY.register("sky_villager_spawn_egg", () -> new DeferredSpawnEggItem(NewSkiesModEntities.SKY_VILLAGER, -1, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

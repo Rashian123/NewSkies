@@ -21,6 +21,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.newskies.init.NewSkiesModVillagerProfessions;
 import net.mcreator.newskies.init.NewSkiesModTabs;
 import net.mcreator.newskies.init.NewSkiesModItems;
+import net.mcreator.newskies.init.NewSkiesModEntities;
 import net.mcreator.newskies.init.NewSkiesModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -44,7 +45,7 @@ public class NewSkiesMod {
 		NewSkiesModBlocks.REGISTRY.register(modEventBus);
 
 		NewSkiesModItems.register(modEventBus);
-
+		NewSkiesModEntities.REGISTRY.register(modEventBus);
 		NewSkiesModTabs.REGISTRY.register(modEventBus);
 
 		NewSkiesModVillagerProfessions.PROFESSIONS.register(modEventBus);
